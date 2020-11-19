@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &515047309854895953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8100031533878746986}
+  - component: {fileID: 1100031559246835457}
+  m_Layer: 0
+  m_Name: ClassDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8100031533878746986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515047309854895953}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.002098, y: 0.23420578, z: 2.4986837}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1100031559246835457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515047309854895953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c2e2f670e247504eaa08c999fc9b96c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  classes:
+  - namePlural: Millita
+    name: Millitiaman
+    image: {fileID: 2800000, guid: 9d85cea280d9d5c4bbde6934895f489a, type: 3}
+    swap: {fileID: 2800000, guid: b256aff26d53888449acbc3ca170e7f4, type: 3}
+    stats: 160000001600000016000000160000000a000000160000001500000015000000
+  - namePlural: Archers
+    name: Archer
+    image: {fileID: 2800000, guid: 82900513b373c3f49b773d4cd4e0a0fc, type: 3}
+    swap: {fileID: 2800000, guid: 219f741f7f16493478433936c51bd12b, type: 3}
+    stats: 1400000016000000170000001000000014000000120000001800000018000000
+  - namePlural: Heavy Infantry
+    name: Heavy Infantry
+    image: {fileID: 2800000, guid: e5f565e4e5c794f46a88f068199494bb, type: 3}
+    swap: {fileID: 2800000, guid: b14b09f977ff0b540aec9e91d3524305, type: 3}
+    stats: 20000000150000001c0000001f000000120000001b0000001100000012000000
+  - namePlural: Light Cavalry
+    name: Light Cavalier
+    image: {fileID: 2800000, guid: 4f9dfa58eb967ea439a3dc8ffd3f44a1, type: 3}
+    swap: {fileID: 2800000, guid: 996d5316bbd8bc640b3277564ec64b89, type: 3}
+    stats: 190000001600000019000000160000001500000016000000190000001a000000
+  - namePlural: Ballistae
+    name: Ballista
+    image: {fileID: 2800000, guid: 4a6a1522d8d51e34b90b610ab5d6e4f3, type: 3}
+    swap: {fileID: 2800000, guid: 4a6a1522d8d51e34b90b610ab5d6e4f3, type: 3}
+    stats: 1e00000019000000320000000f000000280000000c0000001e0000000a000000
+  - namePlural: Avatars of the Twin Gods
+    name: Avatar of the Twin God
+    image: {fileID: 2800000, guid: b9cef3d3a30d6c14aafbac80d623c7aa, type: 3}
+    swap: {fileID: 2800000, guid: b9cef3d3a30d6c14aafbac80d623c7aa, type: 3}
+    stats: 2500000025000000250000002500000025000000250000002400000024000000
+  - namePlural: Ferals
+    name: Feral
+    image: {fileID: 2800000, guid: 7d089f78903c29b469b1859b4e1a2773, type: 3}
+    swap: {fileID: 2800000, guid: d248bb5cd3b0065429c24f2e9488d2c7, type: 3}
+    stats: 140000001000000019000000100000000c00000010000000180000001d000000
